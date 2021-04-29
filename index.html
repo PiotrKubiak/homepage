@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona internetowa!!! Piotr Kubiak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/defaul.css" rel="stylesheet">
+    <link href="css/headnav.css" rel="stylesheet">
+    <link href="css/tabel.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="header js-header">
+        <h1 id="Strona-główna">WITAJCIE NA MOJEJ STRONIE</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#Strona-główna">(Strona główna)</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#O-mnie">(O mnie)</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#Moje-zainteresowania">(Moje zainteresowania)</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#Kontakt">(Kontakt)</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <section class="main__buttonFlex">
+            <p>
+                <button class="main__button js-main__buttonHeader">Schowaj nagłówek</button>
+            </p>
+            <p>
+                <button class="main__button js-main__buttonTheme"> <span
+                        class="main__themeName js-themeName">Ciemny</span>
+                    motyw
+                </button>
+            </p>
+        </section>
+        <img class="main__image" width="200" src="images/ja4.jpg" alt="Piotr Kubiak" title="A to jo :)">
+        <section class="main__oMnie" id="O-mnie">
+            <h2>Krótko o mnie:</h2>
+            <p>Nazywam się <strong>Piotr Kubiak</strong>, mam 34lata i pracuje jako operator CNC (dla ludzi
+                niewiedzących co to CNC - programuje i pracuje na frezarkach sterowanych numerycznie).
+            </p>
+            <p>Kupiłem z kolegą mały ploter laserowy i tworzymy na nim różne ciekawe pierdołki.</p>
+            <img width="180" src="images/laser7.jpg" alt="Laser w akcji" title="Laser w akcji!">
+            <img width="180" src="images/laser2.jpg" alt="Laserowy lampion" title="Laserowy lampion!">
+            <img width="180" src="images/laser5.jpg" alt="Laserowy czołg" title="Laserowy czołg!">
+            <img width="180" src="images/laser4.jpg" alt="Laserowe zegary" title="Laserowe zegary mechanik i StarWars!">
+            <img width="180" src="images/laser3.jpg" alt="Laserowy zegar" title="Laseowy zegar Metallica!">
+            <p>Mieszkam w Kaletach, małym miasteczku w woj. śląsim zewsząd otoczonym lasem.</p>
+            <a class="main__link" rel="noreferrer noopener" target="_blank" href="http://kalety.pl">(Zapraszam do
+                Kalet)</a>
+        </section>
+
+        <section class="main__hobby" id="Moje-zainteresowania">
+            <h2>Moje zainteresowania:</h2>
+            <p>Lubię słuchać muzyki w każdym wolnym czasie, głównie jest to muzyka taneczna: dance, techno, trance i
+                "mocne" jej
+                odmiany <span class="main__interestingElement">hardstyle, hardcore
+                </span>.
+                <em>Musicie sobie posłuchać!</em>
+                <a rel="noreferrer noopener" class="main__link" href="https://www.youtube.com/watch?v=AGDolE35XHA"
+                    target="_blank"> (Przykladowy Utwór)</a>
+
+            <section class="main__music">
+                <table class="main__table">
+                    <caption class="table__caption">TROCHĘ NA TEMAT HARDSTYLE</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell-header" scope="col">Gatunki Hardstyle</th>
+                        <th class="table__cell table__cell-header" scope="col">Imprezy Hardstylowe</th>
+                        <th class="table__cell table__cell-header" scope="col">Kilku znanych wykonawców</th>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Early hardstyle</td>
+                        <td class="table__cell">Defqon.1</td>
+                        <td class="table__cell">Headhunterz</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Nu style</td>
+                        <td class="table__cell">Qlimax</td>
+                        <td class="table__cell">Atmozfears</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Oldschool</td>
+                        <td class="table__cell">Decibel</td>
+                        <td class="table__cell">Bass Modulatos</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Rawstyle</td>
+                        <td class="table__cell">Hardbass</td>
+                        <td class="table__cell">Brennan Heart</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Emotional</td>
+                        <td class="table__cell">Reverze</td>
+                        <td class="table__cell">Coone</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Rawphonic</td>
+                        <td class="table__cell">X-Qlusive</td>
+                        <td class="table__cell">Frequencerz</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Psy style</td>
+                        <td class="table__cell">I Am Hardstyle(PL)</td>
+                        <td class="table__cell">Lady Dana</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Bigroom</td>
+                        <td class="table__cell">Qapital</td>
+                        <td class="table__cell">Ran-D</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Dub Style</td>
+                        <td class="table__cell">Dominator</td>
+                        <td class="table__cell">Wildstyle</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="main__musicList">
+                <h3 class="main__musicListHeader">Lista charakterystyk w Hardstyle i Artyści</h3>
+                <ul class="main__unorderedList">
+                    <li class="main_listItem">
+                        Reverse Bass
+                        <ul class="main__list">
+                            <li class="main__customMarker">Brennan Heart</li>
+                            <li class="main__customMarker">Blademasterz</li>
+                            <li class="main__customMarker">Tweakcore</li>
+                            <li class="main__customMarker">On Demond</li>
+                        </ul>
+                    </li>
+                    <li class="main_listItem">
+                        Hardstyle Kick
+                        <ul class="main__list">
+                            <li class="main__customMarker">Da Tweekaz</li>
+                            <li class="main__customMarker">Cyber</li>
+                            <li class="main__customMarker">Bass Modulators</li>
+                        </ul>
+                    </li>
+                    <li class="main_listItem">
+                        Raw kick
+                        <ul class="main__list">
+                            <li class="main__customMarker">Chemical Soldier</li>
+                            <li class="main__customMarker">Wildstylez</li>
+                            <li class="main__customMarker">The Prophet</li>
+                        </ul>
+                    </li>
+                    <li class="main_listItem">
+                        Punch kick
+                        <ul class="main__list">
+                            <li class="main__customMarker">JNXD</li>
+                            <li class="main__customMarker">Headhunterz</li>
+                            <li class="main__customMarker">Frequencerz</li>
+                        </ul>
+                    </li>
+                    <li class="main_listItem">
+                        Nu Style Kick
+                        <ul class="main__list">
+                            <li class="main__customMarker">Headhunterz</li>
+                            <li class="main__customMarker">Zatox</li>
+                            <li class="main__customMarker">Atmozfears</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Uwielbiam nowinki motoryzacyjne, głównie niemiecką motoryzacje ale o innych też chętnie czytam.</p>
+                <p>Lubię dobry film kryminalny, SF, akcje czy komedie.</p>
+                <div class="main__interestingText">W wolnych chwilach naprawiam komputery, kolumny hifi itp. urządzenia.
+                </div>
+                <p>W weekendy gram jako Dj na imprezach (niestety na razie covid i du.a😟)
+                </p>
+            </section>
+
+        </section>
+
+        <aside class="aside">
+            <p> Powiązane z Hardstyle:</p>
+            <a rel="noreferrer noopener" class="link" href="https://forum.radioparty.pl/topic/25403-hard-brzmienia-wtf/"
+                target="_blank">(Rodzaje Hardstyle)</a>
+            <a rel="noreferrer noopener" class="link" href="https://www.hardtripy.pl/aktualnosci/" target="_blank">
+                (Imprezy)</a>
+            <a rel="noreferrer noopener" class="link"
+                href="https://www.facebook.com/PolishHardstyleFamily/posts/406710352750727/" target="_blank">
+                (Facebook)</a>
+            <p> Motoryzacja:</p>
+            <a rel="noreferrer noopener" class="link" href="https://www.auto-swiat.pl/nowosci" target="_blank">
+                (Nowinki)</a>
+            <a rel="noreferrer noopener" class="link" href="https://www.facebook.com/zlotymotoryzacyjne22"
+                target="_blank"> (Facebook
+                Zloty)</a>
+            <a rel="noreferrer noopener" class="link"
+                href="https://www.audi.pl/pl/web/pl/modele/e-tron-gt/audi-e-tron-gt.html?gclid=Cj0KCQjwmcWDBhCOARIsALgJ2QeNtl6zu05LdAtUubJLlJoXC3ZIBD7HJnxZ0gAQGjVJgpyQuGkbBjMaAjYxEALw_wcB&gclsrc=aw.ds"
+                target="_blank"> (Nowe Audi E-Tron!)</a>
+            <p> Sklepik Świeczkowy Gorąco Zapraszam!!!</p>
+            <a class="link" rel="noreferrer noopener" href="https://www.swieczkowy.pl/" target="_blank"> (Sklepik ze
+                świeczkami i gadzetami)</a>
+        </aside>
+        <hr>
+        <footer id="Kontakt" class="footer">
+            <a class="footer__copy">&copy;Copyright 2021 by Pjoter - wszelkie prawa zastrzeżone &reg;</a>
+            <hr>
+            📧: <a class="footer__link" href="mailto:kuberxxx1986@gmail.com"> kuberxxx1986@gmail.com</a> 📱: <a
+                class="footer__link" href="tel:+48.508302310"> 555-555-555 </a>
+        </footer>
+    </main>
+
+</body>
+
+</html>

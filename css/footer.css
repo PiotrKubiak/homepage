@@ -1,0 +1,25 @@
+
+.footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    border-color: lightslategray;
+    border-style: inherit;
+    text-shadow: lightgreen;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__copy {
+    color: black;
+}
+
+.link:hover {
+    color: red;
+}
+
+.link:active {
+    color: rgb(162, 162, 235);
+}

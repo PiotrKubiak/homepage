@@ -1,0 +1,12 @@
+
+.aside {
+    margin: 0 auto;
+    background-color: ivory;
+    padding: 20px;
+    text-align: center;
+    border-color: lemonchiffon;
+    border-style: groove;
+    outline: 10px groove lightgrey;
+    box-shadow: 25px -15px 16px 3px #AFB9CE;
+    color: rgb(63, 63, 63)
+}

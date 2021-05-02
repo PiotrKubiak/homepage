@@ -1,72 +1,7 @@
-.main__oMnie {
-    padding: 5px;
-}
 
-.main__link {
-    text-decoration: none;
-    background-color: #ccc;
-    border-radius: 10px;
-    border-width: 15px;
-    padding: 5px;
-    line-height: 2.5;
-}
-
-.main__link:hover {
-    color: red;
-}
-
-.main__link:active {
-    color: rgb(162, 162, 235);
-}
-
-.main__interestingElement {
-    color: blue;
-}
-
-.main__music {
-    overflow-x: auto;
-}
-
-.main__table {
-    width: 90%;
-    font-family: "Poppins", sans-serif;
-    border-collapse: collapse;
-    box-shadow: 25px 5px 16px 3px #AFB9CE;
-    margin: 20px auto;
-}
-
-.main__musicList {
-    padding: 20px;
-}
-
-.main__musicListHeader {
-    padding: 5px;
-}
-
-.main__unorderedList {
-    list-style-type: "🔊";
-}
-
-.main_listItem {
-    margin: 4px 0;
-    padding: 5px;
-}
-
-.main__list {
-    padding-left: 20px;
-    padding: 5px;
-}
-
-.main__customMarker {
-    list-style-type: "🎵";
-    padding: 5px
-}
-
-.main__interestingText {
-    text-align: center;
-    color: blue;
-    background-color: #ddd;
-    padding: 10px;
+.main__buttonFlex {
+    display: flex;
+    justify-content: space-evenly;    
 }
 
 .main__button {
@@ -97,11 +32,6 @@
     display: none;
 }
 
-.main__buttonFlex {
-    display: flex;
-    justify-content: space-evenly;    
-}
-
 .dark {
     background-color: rgb(9, 9, 29);
     margin: 0;
@@ -122,10 +52,73 @@
     margin-right: auto;
 }
 
-.navigation__link:hover {
+.main__oMnie {
+    padding: 5px;
+}
+
+.main__interestingElement {
+    color: blue;
+}
+
+.main__link {
+    text-decoration: none;
+    background-color: #ccc;
+    border-radius: 10px;
+    border-width: 15px;
+    padding: 5px;
+    line-height: 2.5;
+}
+
+.main__link:hover {
     color: red;
 }
 
-.navigation__link:active {
+.main__link:active {
     color: rgb(162, 162, 235);
+}
+
+.main__musicList {
+    padding: 20px;
+}
+
+.main__musicListHeader {
+    padding: 5px;
+}
+
+.main__music {
+    overflow-x: auto;
+}
+
+.main__table {
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    border-collapse: collapse;
+    box-shadow: 25px 5px 16px 3px #AFB9CE;
+    margin: 20px auto;
+}
+
+.main__unorderedList {
+    list-style-type: "🔊";
+}
+
+.main_listItem {
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.main__list {
+    padding-left: 20px;
+    padding: 5px;
+}
+
+.main__customMarker {
+    list-style-type: "🎵";
+    padding: 5px
+}
+
+.main__interestingText {
+    text-align: center;
+    color: blue;
+    background-color: #ddd;
+    padding: 10px;
 }

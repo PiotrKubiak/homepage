@@ -32,3 +32,11 @@
     padding: 5px;
     line-height: 2.5;
 }
+
+.navigation__link:hover {
+    color: red;
+}
+
+.navigation__link:active {
+    color: rgb(162, 162, 235);
+}

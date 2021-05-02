@@ -1,7 +1,6 @@
-
 .main__buttonFlex {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
 }
 
 .main__button {
@@ -33,10 +32,11 @@
 }
 
 .dark {
-    background-color: rgb(9, 9, 29);
     margin: 0;
     margin: 0 auto;
     color: white;
+    background-image: url("../images/tapetaciemna.jpg");
+    width: 1000px;
 }
 
 .main__themeName {
@@ -75,6 +75,10 @@
 
 .main__link:active {
     color: rgb(162, 162, 235);
+}
+
+.main__paragraph {
+    text-indent: 40px;
 }
 
 .main__musicList {

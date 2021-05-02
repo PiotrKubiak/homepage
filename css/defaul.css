@@ -12,6 +12,6 @@ html {
     line-height: 1, 4;
     margin: 0 auto;
     padding: 10px;
-    background-image: url();
-    background-size: cover;
+    background-image: url("../images/tapetajasna.jpg");
+    width: 1000px;
 }

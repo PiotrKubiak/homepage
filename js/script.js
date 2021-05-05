@@ -4,28 +4,28 @@
   }
 
   const toggleTheme = () => {
-    const body = documentElement;
-    const buttonTheme = document.querySelector(".js-themeName");
+    const body = document.documentElement;
+    const changeThemeName = document.querySelector(".js-themeName");
 
     body.classList.toggle("dark");
-    buttonTheme.innerText = body.classList.contains("dark") ? "Jasny motyw" : "Ciemny motyw";
-  }
+    changeThemeName.innerText = body.classList.contains("dark") ? "Jasny motyw" : "Ciemny motyw";
+  };
 
   const hideHeader = () => {
-    const buttonHeader = document.querySelector(".js-main__buttonHeader");
     const header = document.querySelector(".js-header");
 
-    
     header.classList.toggle("header__hideHeader");
     buttonHeader.innerText = buttonHeader.classList.contains("header")
       ? "Schowaj nagłówek" : "Pokaż nagłówek";
-
-  }
+  };
 
   const init = () => {
-    const buttonTheme = document.querySelector(".js-main__buttonTheme");
-    buttonTheme.addEventListener("click", toggleTheme);
+    const changeThemeButton = document.querySelector(".js-main__buttonTheme")
+    changeThemeButton.addEventListener("click", toggleTheme);
+
+    const buttonHeader = document.querySelector("js-main__buttonHeader")
     buttonHeader.addEventListener("click", hideHeader);
+
     welcome();
   };
 

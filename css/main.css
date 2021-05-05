@@ -31,14 +31,6 @@
     display: none;
 }
 
-.dark {
-    margin: 0;
-    margin: 0 auto;
-    color: white;
-    background-image: url("../images/tapetaciemna.jpg");
-    width: 1000px;
-}
-
 .main__themeName {
     text-align: center;
 }

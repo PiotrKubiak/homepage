@@ -15,3 +15,12 @@ html {
     background-image: url("../images/tapetajasna.jpg");
     width: 1000px;
 }
+
+.dark {
+    margin: 0 auto;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    line-height: 1, 4;
+    background-image: url("../images/tapetaciemna.jpg");
+    width: 1000px;
+}

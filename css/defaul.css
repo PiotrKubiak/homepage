@@ -13,14 +13,14 @@ html {
     margin: 0 auto;
     padding: 10px;
     background-image: url("../images/tapetajasna.jpg");
-    width: 1000px;
 }
 
 .dark {
-    margin: 0 auto;
+    max-width: 1000px;
     color: white;
     font-family: "Poppins", sans-serif;
     line-height: 1, 4;
+    margin: 0 auto;
+    padding: 10px;
     background-image: url("../images/tapetaciemna.jpg");
-    width: 1000px;
 }

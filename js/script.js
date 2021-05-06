@@ -8,7 +8,7 @@
     const changeThemeName = document.querySelector(".js-themeName");
 
     body.classList.toggle("dark");
-    changeThemeName.innerText = body.classList.contains("dark") ? "Jasny motyw" : "Ciemny motyw";
+    changeThemeName.innerText = body.classList.contains("dark") ? "Jasny" : "Ciemny";
   };
 
   const hideHeader = () => {
@@ -20,10 +20,10 @@
   };
 
   const init = () => {
-    const changeThemeButton = document.querySelector(".js-main__buttonTheme")
+    const changeThemeButton = document.querySelector(".js-main__buttonTheme");
     changeThemeButton.addEventListener("click", toggleTheme);
 
-    const buttonHeader = document.querySelector("js-main__buttonHeader")
+    const buttonHeader = document.querySelector("js-main__buttonHeader");
     buttonHeader.addEventListener("click", hideHeader);
 
     welcome();

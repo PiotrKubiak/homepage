@@ -8,15 +8,15 @@
     const changeThemeName = document.querySelector(".js-themeName");
 
     body.classList.toggle("dark");
-    changeThemeName.innerText = body.classList.contains("dark") ? "Jasny" : "Ciemny";
+    changeThemeName.innerText = changeThemeName.innerText === "Jasny" ? "Ciemny" : "Jasny";
   };
 
   const hideHeader = () => {
     const header = document.querySelector(".js-header");
+    const buttonHeader = document.querySelector (".js-main__buttonHeader")
 
     header.classList.toggle("header__hideHeader");
-    buttonHeader.innerText = buttonHeader.classList.contains("header")
-      ? "Schowaj nagłówek" : "Pokaż nagłówek";
+    buttonHeader.innerText = buttonHeader.innerText === "Schowaj nagłówek" ? "Pokaż nagłówek" : "Schowaj nagłówek";
   };
 
   const init = () => {

@@ -27,7 +27,7 @@
     color: blue;
 }
 
-.header__hideHeader {
+.header--hideHeader {
     display: none;
 }
 

@@ -15,7 +15,7 @@ html {
     background-image: url("../images/tapetajasna.jpg");
 }
 
-.dark {
+.body--dark {
     max-width: 1000px;
     color: white;
     font-family: "Poppins", sans-serif;

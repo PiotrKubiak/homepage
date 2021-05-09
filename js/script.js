@@ -13,6 +13,7 @@
 
   const toggleHeader = () => {
     const header = document.querySelector(".js-header");
+    const buttonHeader = document.querySelector("js-main__buttonHeader");
     
     header.classList.toggle("header--hideHeader");
     buttonHeader.innerText = buttonHeader.innerText === "Schowaj nagłówek" ? "Pokaż nagłówek" : "Schowaj nagłówek";

@@ -11,20 +11,9 @@
     changeThemeName.innerText = changeThemeName.innerText === "Jasny" ? "Ciemny" : "Jasny";
   };
 
-  const toggleHeader = () => {
-    const header = document.querySelector(".js-header");
-    const buttonHeader = document.querySelector("js-main__buttonHeader");
-    
-    header.classList.toggle("header--hideHeader");
-    buttonHeader.innerText = buttonHeader.innerText === "Schowaj nagłówek" ? "Pokaż nagłówek" : "Schowaj nagłówek";
-  };
-
   const init = () => {
     const changeThemeButton = document.querySelector(".js-main__buttonTheme");
     changeThemeButton.addEventListener("click", toggleTheme);
-
-    const buttonHeader = document.querySelector("js-main__buttonHeader");
-    buttonHeader.addEventListener("click", toggleHeader);
 
     welcome();
   };

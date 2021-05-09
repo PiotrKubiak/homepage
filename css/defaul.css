@@ -11,7 +11,7 @@ html {
     font-family: "Poppins", sans-serif;
     line-height: 1, 4;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
     background-image: url("../images/tapetajasna.jpg");
 }
 
@@ -21,6 +21,34 @@ html {
     font-family: "Poppins", sans-serif;
     line-height: 1, 4;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
     background-image: url("../images/tapetaciemna.jpg");
+}
+
+.body__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body__themeButton {
+    display: inline-block;
+    color: white;
+    background-color: rgb(24, 191, 197);
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+    border-width: 5px 10px;
+    border-color: rgb(63, 63, 63) rgb(214, 214, 214);
+    border-style: outset;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.body__themeButton:hover {
+    color: rgb(218, 218, 218);
+    background-color: rgb(7, 151, 156);
+}
+
+.body__themeButton:active {
+    color: blue;
 }

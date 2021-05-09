@@ -2,7 +2,7 @@
     text-align: center;
     color: rgba(3, 3, 26, 0.801);
     background-color: #ccc;
-    font-size: 20px;
+    font-size: 16px;
     font-style: Normal;
     text-shadow: 5px 5px rgb(155, 154, 154);
     border-width: 10px;
@@ -11,14 +11,16 @@
 }
 
 .navigation {
-    text-align: center;
-    list-style-position: inside;
+    padding: auto;
 }
 
 .navigation__list {
+    padding: 0px;
+    font-size: 12px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: "👉";
+    flex-wrap: wrap;
 }
 
 .navigation__item {

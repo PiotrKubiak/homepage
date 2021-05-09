@@ -5,14 +5,14 @@
 
   const toggleTheme = () => {
     const body = document.querySelector(".body");
-    const changeThemeName = document.querySelector(".js-themeName");
+    const changeThemeName = document.querySelector(".js-themeChange");
 
     body.classList.toggle("body--dark");
-    changeThemeName.innerText = changeThemeName.innerText === "Jasny" ? "Ciemny" : "Jasny";
+    changeThemeName.innerText = changeThemeName.innerText === "JASNY" ? "CIEMNY" : "JASNY";
   };
 
   const init = () => {
-    const changeThemeButton = document.querySelector(".js-main__buttonTheme");
+    const changeThemeButton = document.querySelector(".js-buttonTheme");
     changeThemeButton.addEventListener("click", toggleTheme);
 
     welcome();

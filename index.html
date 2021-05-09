@@ -23,48 +23,55 @@
 </head>
 
 <body class="body">
-
+    <section class="body__button">
+        <p>
+            <button class="body__themeButton js-buttonTheme"> <span class="js-themeChange">CIEMNY</span>
+                MOTYW
+            </button>
+        </p>
+    </section>
     <header class="header js-header">
-        <h1 id="Strona-główna">WITAJCIE NA MOJEJ STRONIE</h1>
+        <h1>WITAJCIE NA MOJEJ STRONIE</h1>
     </header>
     <nav class="navigation">
         <ul class="navigation__list">
+
             <li class="navigation__item">
-                <a class="navigation__link" href="#Strona-główna">(Strona główna)</a>
+                <a class="navigation__link" href="#O-mnie">O mnie</a>
             </li>
             <li class="navigation__item">
-                <a class="navigation__link" href="#O-mnie">(O mnie)</a>
+                <a class="navigation__link" href="#Moje-zainteresowania">Moje zainteresowania</a>
             </li>
             <li class="navigation__item">
-                <a class="navigation__link" href="#Moje-zainteresowania">(Moje zainteresowania)</a>
-            </li>
-            <li class="navigation__item">
-                <a class="navigation__link" href="#Kontakt">(Kontakt)</a>
+                <a class="navigation__link" href="#Kontakt">Kontakt</a>
             </li>
         </ul>
     </nav>
 
     <main class="main">
-        <section class="main__buttonFlex">
-            <p>
-                <button class="main__button js-main__buttonTheme"> <span
-                        class="main__themeName js-themeName">Ciemny</span>
-                    motyw
-                </button>
-            </p>
-        </section>
-        <img class="main__image" width="200" src="images/ja4.jpg" alt="Piotr Kubiak" title="A to jo :)">
+
+        <img class="main__image" width="300" src="images/ja4.jpg" alt="Piotr Kubiak" title="A to jo :)">
         <section class="main__oMnie" id="O-mnie">
             <h2>Krótko o mnie:</h2>
             <p>Nazywam się <strong>Piotr Kubiak</strong>, mam 34lata i pracuje jako operator CNC (dla ludzi
                 niewiedzących co to CNC - programuje i pracuje na frezarkach sterowanych numerycznie).
             </p>
-            <p>Kupiłem z kolegą mały ploter laserowy i tworzymy na nim różne ciekawe pierdołki.</p>
-            <img width="180" src="images/laser7.jpg" alt="Laser w akcji" title="Laser w akcji!">
-            <img width="180" src="images/laser2.jpg" alt="Laserowy lampion" title="Laserowy lampion!">
-            <img width="180" src="images/laser5.jpg" alt="Laserowy czołg" title="Laserowy czołg!">
-            <img width="180" src="images/laser4.jpg" alt="Laserowe zegary" title="Laserowe zegary mechanik i StarWars!">
-            <img width="180" src="images/laser3.jpg" alt="Laserowy zegar" title="Laseowy zegar Metallica!">
+            <p>Pracuję czasami z kolegą na ploterze laserowy gdzie tworzymy różne ciekawe gadżety.</p>
+            <div class="main__images">
+                <img class="main__imagesItem" width="300" src="images/laser7.jpg" alt="Laser w akcji"
+                    title="Laser w akcji!">
+                <img class="main__imagesItem" width="300" src="images/laser2.jpg" alt="Laserowy lampion"
+                    title="Laserowy lampion!">
+                <img class="main__imagesItem" width="300" src="images/laser5.jpg" alt="Laserowy czołg"
+                    title="Laserowy czołg!">
+                <img class="main__imagesItem" width="300" src="images/laser4.jpg" alt="Laserowe zegary"
+                    title="Laserowe zegary mechanik i StarWars!">
+                <img class="main__imagesItem" width="300" src="images/laser3.jpg" alt="Laserowy zegar"
+                    title="Laseowy zegar Metallica!">
+                <img class="main__imagesItem" width="300" src="images/laser1.jpg" alt="Laserowe pudełko"
+                    title="Laseowe pudełko!">
+
+            </div>
             <p>Mieszkam w Kaletach, małym miasteczku w woj. śląsim zewsząd otoczonym lasem.</p>
             <a class="main__link" rel="noreferrer noopener" target="_blank" href="http://kalety.pl">(Zapraszam do
                 Kalet)</a>

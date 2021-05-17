@@ -1,97 +1,96 @@
 .main__image {
-    display: block;
-    border-radius: 10%;
-    box-shadow: 0 0 20px rgb(95, 95, 95);
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  border-radius: 10%;
+  box-shadow: 0 0 20px rgb(95, 95, 95);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main__oMnie {
-    padding: 5px;
+  padding: 5px;
 }
 
 .main__images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .main__imagesItem {
-    flex-basis: 180px;
-    flex: 0 0 auto;
-    
-    border-radius: 5%;
-    padding: 2px;
+  flex-basis: 180px;
+  flex: 0 0 auto;
+  border-radius: 5%;
+  padding: 2px;
 }
 
 .main__interestingElement {
-    color: blue;
+  color: blue;
 }
 
 .main__link {
-    text-decoration: none;
-    background-color: #ccc;
-    border-radius: 10px;
-    border-width: 15px;
-    padding: 5px;
-    line-height: 2.5;
+  text-decoration: none;
+  background-color: #ccc;
+  border-radius: 10px;
+  border-width: 15px;
+  padding: 5px;
+  line-height: 2.5;
 }
 
 .main__link:hover {
-    color: red;
+  color: red;
 }
 
 .main__link:active {
-    color: rgb(162, 162, 235);
+  color: rgb(162, 162, 235);
 }
 
 .main__paragraph {
-    text-indent: 40px;
+  text-indent: 40px;
 }
 
 .main__musicList {
-    padding: 20px;
+  padding: 20px;
 }
 
 .main__musicListHeader {
-    padding: 5px;
+  padding: 5px;
 }
 
 .main__music {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .main__table {
-    width: 90%;
-    font-family: "Poppins", sans-serif;
-    border-collapse: collapse;
-    box-shadow: 25px 5px 16px 3px #AFB9CE;
-    margin: 20px auto;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  box-shadow: 25px 5px 16px 3px #AFB9CE;
+  margin: 20px auto;
 }
 
 .main__unorderedList {
-    list-style-type: "🔊";
+  list-style-type: "🔊";
 }
 
 .main_listItem {
-    margin: 4px 0;
-    padding: 5px;
+  margin: 4px 0;
+  padding: 5px;
 }
 
 .main__list {
-    padding-left: 20px;
-    padding: 5px;
+  padding-left: 20px;
+  padding: 5px;
 }
 
 .main__customMarker {
-    list-style-type: "🎵";
-    padding: 5px
+  list-style-type: "🎵";
+  padding: 5px
 }
 
 .main__interestingText {
-    text-align: center;
-    color: blue;
-    background-color: #ddd;
-    padding: 10px;
+  text-align: center;
+  color: blue;
+  background-color: #ddd;
+  padding: 10px;
 }

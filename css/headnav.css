@@ -1,45 +1,45 @@
 .header {
-    text-align: center;
-    color: rgba(3, 3, 26, 0.801);
-    background-color: #ccc;
-    font-size: 16px;
-    font-style: Normal;
-    text-shadow: 5px 5px rgb(155, 154, 154);
-    border-width: 10px;
-    outline-style: ridge;
-    outline: 10px groove lightblue;
+  text-align: center;
+  color: rgba(3, 3, 26, 0.801);
+  background-color: #ccc;
+  font-size: 16px;
+  font-style: Normal;
+  text-shadow: 5px 5px rgb(155, 154, 154);
+  border-width: 10px;
+  outline-style: ridge;
+  outline: 10px groove lightblue;
 }
 
 .navigation {
-    padding: auto;
+  padding: auto;
 }
 
 .navigation__list {
-    padding: 0px;
-    font-size: 12px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: "👉";
-    flex-wrap: wrap;
+  padding: 0px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: "👉";
+  flex-wrap: wrap;
 }
 
 .navigation__item {
-    margin: 10px;
+  margin: 10px;
 }
 
 .navigation__link {
-    text-decoration: none;
-    background-color: #ccc;
-    border-radius: 10px;
-    border-width: 15px;
-    padding: 5px;
-    line-height: 2.5;
+  text-decoration: none;
+  background-color: #ccc;
+  border-radius: 10px;
+  border-width: 15px;
+  padding: 5px;
+  line-height: 2.5;
 }
 
 .navigation__link:hover {
-    color: red;
+  color: red;
 }
 
 .navigation__link:active {
-    color: rgb(162, 162, 235);
+  color: rgb(162, 162, 235);
 }

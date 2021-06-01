@@ -13,11 +13,11 @@
 
   const hideHeader = () => {
     const header = document.querySelector(".header");
-    const headerName = document.querySelector(".js-js-headerHide");
+    const headerName = document.querySelector(".js-headerHide");
 
-    header.classList.toggle("header--hidden")
-    headerName.innerText = themeName.innerText === "SCHOWAJ" ? "POKAŻ" : "SCHOWAJ";
-  }
+    header.classList.toggle("header--hidden");
+    headerName.innerText = headerName.innerText === "POKAŻ" ? "SCHOWAJ" : "POKAŻ";
+  };
 
   const init = () => {
     const themeButton = document.querySelector(".js-buttonTheme");

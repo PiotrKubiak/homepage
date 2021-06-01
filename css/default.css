@@ -44,6 +44,20 @@ html {
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
+.body__headerHideButton {
+  display: inline-block;
+  color: white;
+  background-color: rgb(24, 191, 197);
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  border-width: 5px 10px;
+  border-color: rgb(63, 63, 63) rgb(214, 214, 214);
+  border-style: outset;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
 .body__themeButton:hover {
   color: rgb(218, 218, 218);
   background-color: rgb(7, 151, 156);
@@ -51,4 +65,18 @@ html {
 
 .body__themeButton:active {
   color: blue;
+}
+
+
+.body__headerHideButton:hover {
+  color: rgb(218, 218, 218);
+  background-color: rgb(7, 151, 156);
+}
+
+.body__headerHideButton:active {
+  color: blue;
+}
+
+.header--hidden {
+  display: none;
 }

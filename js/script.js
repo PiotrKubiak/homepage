@@ -11,9 +11,20 @@
     themeName.innerText = themeName.innerText === "JASNY" ? "CIEMNY" : "JASNY";
   };
 
+  const hideHeader = () => {
+    const header = document.querySelector(".header");
+    const headerName = document.querySelector(".js-js-headerHide");
+
+    header.classList.toggle("header--hidden")
+    headerName.innerText = themeName.innerText === "SCHOWAJ" ? "POKAŻ" : "SCHOWAJ";
+  }
+
   const init = () => {
     const themeButton = document.querySelector(".js-buttonTheme");
     themeButton.addEventListener("click", toggleTheme);
+
+    const headerHideButton = document.querySelector(".js-buttonHeader");
+    headerHideButton.addEventListener("click", hideHeader);
 
     welcome();
   };

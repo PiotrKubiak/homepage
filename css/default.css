@@ -80,3 +80,7 @@ html {
 .header--hidden {
   display: none;
 }
+
+button {
+  cursor: pointer;
+}

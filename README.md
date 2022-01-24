@@ -1,6 +1,6 @@
 # Piotr Kubiak my webside
 
-## This is my new website and it's still under construction.
+## This is my website in html, css and js and it's still under construction.
 
 ![It,s me](images/ja2.jpg)
 
